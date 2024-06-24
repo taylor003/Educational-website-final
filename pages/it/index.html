@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UACpmpatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Responsive Online Education Tutor Website Design</title>
+
+ <!-- swiper css link -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./emailStyle.css">
+
+</head>
+<body>
+
+ <!-- header section -->
+ <header class="header">
+
+  <section class="flex">
+
+  <a href="#home" class="logo">educa.</a>
+
+  
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <img src="./menu_open.png" alt="" id="menu-icon">
+      <img src="./close.png" alt="" id="close-icon">
+    </label>
+
+  <nav class="navbar">
+    <a href="../../index.html" style="--i:0;">home</a>
+    <a href="../math/index.html" style="--i:1;">about</a>
+    <a href="../../index.html" style="--i:2;">courses</a>
+    <a href="../../index.html" style="--i:2;">courses</a>
+    <a href="../../index.html" style="--i:3;">teachers</a>
+    <a href="../../index.html" style="--i:4;">reviews</a>
+    <a href="../../index.html" style="--i:5;">contact</a>
+  </nav>
+
+ </section>
+ </header>
+
+ <!-- main body section ends -->
+ <section class="math" id="math">
+
+   <h1 class="heading">major topics on <span>offer</span></h1>
+
+   <div class="container2">
+
+  <div class="slide">
+    
+   <div class="item" style="background-image: url(./images/system\ analysis.jpg);">
+     <div class="content">
+      <div class="name">System Analysis and Design</div>
+      <div class="des">In short, this is the process of examining a business situation with the intent of improving it through better procedures and methods. System analysis and design relates to shaping organizations, improving performance and achieving objectives for profitability and growth. We offer assistance asignment writing and projects
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/programming.jpg);">
+     <div class="content">
+      <div class="name">Programming</div>
+      <div class="des">Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. Languages we offer assistace in are PHP, Python and C++.
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/data\ structure.jpg);">
+     <div class="content">
+      <div class="name">Data Scructure and Algorithms</div>
+      <div class="des">A data structure is a method of organizing data in a virtual system. Think of sequences of numbers, or tables of data: these are both well-defined data structures. We offer assistance in project making or assisngments realted to this course
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/web\ dev.jpg);">
+     <div class="content">
+      <div class="name">Web Development</div>
+      <div class="des">Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Languages specialized in are HTML, CSS, Javascript and React. We assist in Assignments and project making.
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+
+
+  </div>
+
+  <div class="button">
+    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+ </div>
+
+ <script src="app.js"></script>
+
+
+
+
+
+<!-- 
+
+ <div class="swiper topic-slider">
+
+
+
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide slide">
+      <img src="./images/system analysis.jpg" alt="">
+      <h3>System Analysis and Design</h3>
+      <p>In short, this is the process of examining a business situation with the intent of improving it through better procedures and methods. System analysis and design relates to shaping organizations, improving performance and achieving objectives for profitability and growth. We offer assistance asignment writing and projects</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/programming.jpg" alt="">
+      <h3>Programming</h3>
+      <p>Programming refers to a technological process for telling a computer which tasks to perform in order to solve problems. Languages we offer assistace in are PHP, Python and C++.</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/data structure.jpg" alt="">
+      <h3>Data Structure and Algorithms</h3>
+      <p>A data structure is a method of organizing data in a virtual system. Think of sequences of numbers, or tables of data: these are both well-defined data structures. We offer assistance in project making or assisngments realted to this course</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/web dev.jpg" alt="">
+      <h3>Web Development</h3>
+      <p>Web development is the building and maintenance of websites; it's the work that happens behind the scenes to make a website look great, work fast and perform well with a seamless user experience. Languages specialized in are HTML, CSS, Javascript and React. We assist in Assignments and project making.</p>
+    </div>
+
+
+
+  </div>
+
+ </div>
+ -->
+ </section>
+
+
+ <section class="send">
+  <div class="container">
+   <form action="https://formspree.io/f/mrgnrjdr" method="POST">
+    <h2 class="heading">Get in<span> touch</span></h2>
+      <input type="text" name="Topic" id="name" placeholder="Math topic">
+      <input type="text" name="Number" id="phone" placeholder="WhatsApp line">
+      <input type="email" name="Email" id="eamil" placeholder="email.@com">
+      <button type="submit" class="btn">submit</button>
+    </form>
+  </div>
+</section>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+<script src="./js/script.js"></script>
+<script src="./js/email.js"></script>
+</body>
+</html>

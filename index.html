@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UACpmpatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Responsive Online Education Tutor Website Design</title>
+
+ <!-- swiper css link -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+ <link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+ <!-- header section -->
+ <header class="header">
+
+ <section class="flex">
+
+  <a href="#home" class="logo">educa.</a>
+
+  <nav class="navbar">
+    
+  <ul class="nav-bar">
+      <input type="checkbox" id="check">
+      <span class="menu">
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="teach">Teachers</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+        <label for="check" class="close-menu"><img src="./close.png" alt=""></label>
+      </span>
+      <label for="check" class="open-menu"><img src="./menu_open.png" alt=""></label>
+    </ul>
+    <!--
+    <a href="#home">home</a>
+    <a href="#about">about</a>
+    <a href="#courses">acourses</a>
+    <a href="#teachers">teachers</a>
+    <a href="#reviews">reviews</a>
+    <a href="#contact">contact</a>
+    -->
+  </nav>
+
+
+  <!-- <div id="menu-btn" class="fas fa-bars"></div> -->  
+ </section>
+ </header>
+
+ <!-- header section ends -->
+
+ <!-- home section starts -->
+ <section class="home" id="home">
+
+  <div class="row">
+
+    <div class="content">
+      <h3>online <span>education</span></h3>
+      <a href="#contact" class="btn">Contact us</a>
+      </div>
+    
+      <div class="image">
+        <img src="images/268-2688040_open-physics-book-cover-page.png" alt="">
+      </div>
+
+  </div>
+ </section>
+ <!-- home section ends -->
+
+  <!--counter section starts -->
+ <section class="count">
+  
+  <div class="box-container">
+    
+    <div class="box">
+      <i class="fas fa-graduation-cap"></i>
+      <div class="content">
+        <h3>4+</h3>
+        <p>Programs</p>
+      </div>
+    </div>
+
+  <div class="box">
+    <i class="fas fa-user-graduate"></i>
+      <div class="content">
+        <h3>13+</h3>
+        <p>Students</p>
+      </div>
+  </div>
+
+  <div class="box">
+    <i class="fas fa-graduation-cap"></i>
+      <div class="content">
+        <h3>15+</h3>
+        <p>Courses</p>
+      </div>
+    </div>
+
+    <div class="box">
+       <i class="fas fa-face-smile"></i>
+         <div class="content">
+          <h3>85%</h3>
+          <p>Satisfation</p>
+         </div>
+    </div>
+
+
+  </div>
+ </section>
+ <!--counter section ends -->
+
+ <!-- about section starts -->
+
+ <section class="about" id="about">
+
+  <div class="row">
+
+    <div class="image">
+      <img src="./images/gravity.jpg" alt="">
+    </div>
+
+    <div class="content">
+      <h3>why choose us?</h3>
+      <p>We are a very commited and reliable team for your work. Assistance given also inlcuede explanations were the client needs clarity.</p>
+      <a href="#contact" class="btn">contact us</a>
+    </div>
+  </div>
+ </section>
+ <!-- about section ends -->
+
+ <!-- courses section starts -->
+ <section class="courses" id="courses">
+  
+  <h1 class="heading">courses on <span>offer</span></h1>
+
+  <div class="swiper course-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <a href="./pages/math/index.html">
+        <img src="./images/venti-views-lI7dlA5VBp8-nsplash.jpg" alt="">
+        <h3>Mathematics</h3>
+        </a>
+        <p>We offer assistance in varoius math topics. can be linear equations, log functions, statisticts etc. Please note that we only assist with 1st and 2nd year math work. Kindly click on to see the courses on offer</p>
+      </div>
+
+      <div class="swiper-slide slide">
+        <a href="./pages/educational/index.html">
+        <img src="./images/tuition_fees.jpg" alt="">
+        <h3>Educational Courses</h3>
+        </a>
+        <p>We offer assistance in Educational related courses. Can be Psychology of Education, Research Methods and other related courses. In this we offer assistance with assisngments and project writing</p>
+      </div>
+
+       <div class="swiper-slide slide">
+        <a href="./pages/it/index.html">
+        <img src="./images/information technology.png" alt="">
+        <h3>IT Courses</h3>
+        </a>
+        <p>An attractive and interactive application or webpage is what gets the client atention. We also offer assistance in IT Courses. Languages on offer are C+, Javascript, Html, Css and Python.</p>
+      </div>
+
+       <div class="swiper-slide slide">
+        <img src="./images/gates.jpg" alt="">
+        <h3>Engineering Courses</h3>
+        <p>coming soon..</p>
+      </div>
+       
+      <!--
+       <div class="swiper-slide slide">
+        <img src="./images/gravity.jpg" alt="">
+        <h3>teaching</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, suscipit dolor.</p>
+      </div>
+
+       <div class="swiper-slide slide">
+        <img src="./images/268-2688040_open-physics-book-cover-page.png" alt="">
+        <h3>engineering</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est, suscipit dolor.</p>
+      </div>
+      -->
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+ </section>
+ <!-- courses section ends -->
+
+ <!-- teachers section starts -->
+
+  <section class="teachers" id="teach">
+  
+  <h1 class="heading">expert <span>tutors</span></h1>
+
+  <div class="swiper teachers-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <img src="./images/expert tutors/Josh.jpg" alt="" target="_blank">
+       <div class="share">
+          <a href="https://web.facebook.com/joshua.chabe.7"  class="fab fa-facebook" target="_blank"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="https://www.instagram.com/joshuachabe/" class="fab fa-instagram" target="_blank"></a>
+          <a href="https://www.linkedin.com/in/joshua-chabe-65973a228/" class="fab fa-linkedin" target="_blank"></a>
+        </div>
+        <h3>Joshua Chabe</h3>
+      </div>
+
+       <div class="swiper-slide slide">
+        <img src="./images/expert tutors/emmah.jpg" alt="">
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <h3>Emmah</h3>
+      </div>
+      
+      <div class="swiper-slide slide">
+        <img src="./images/expert tutors/billal.jpg" alt="">
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <h3>Bilal Chileshe</h3>
+      </div>
+
+      <!--
+
+       <div class="swiper-slide slide">
+        <img src="./images/tuition_fees.jpg" alt="">
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <h3>jane Doe</h3>
+      </div>
+
+      <div class="swiper-slide slide">
+        <img src="./images/venti-views-lI7dlA5VBp8-nsplash.jpg" alt="">
+        <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+        </div>
+        <h3>jane Doe</h3>
+      </div>
+       -->
+
+
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+ </section>
+ <!-- teachers section ends -->
+
+ <!-- reviews section starts -->
+
+ <section class="reviews" id="reviews">
+  <h1 class="heading">student's <span>reviews</span></h1>
+
+  <div class="swiper reviews-slider">
+
+    <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide">
+        <p>He has worked some of my math question and one Educational assisgnment. Would say he is very reliable and efficient person to work with.</p>
+        <div class="user">
+          <img src="./images/Reviews/selah.jpg" alt="">
+          <div class="user-information">
+            <h3>Tamara Phiri</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide">
+         <p>I have only worked with him on about 3 projects and all were worked on in a couple of days. All i can say is that he is a reliable person to work on most of my Python and PHP queries</p>
+        <div class="user">
+          <img src="./images/Reviews/chota.jpg" alt="">
+          <div class="user-information">
+            <h3>Chota Bwalya</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide slide">
+        <p>Only worked with him once on a math assisgnment and the marks i got were average. He is quite good at solving linier progressions and other Math Problems.</p>
+        <div class="user">
+          <img src="./images/Reviews/phyllis.jpg" alt="">
+          <div class="user-information">
+            <h3>Phillis Kazungu</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <div class="swiper-slide slide">
+        <p>Good writter, He has helped me with a number of my educational Assignments. I am working as an in service and never have much time to settle down and do the work. He assists me on bulky assisngments then later explains it in a simplified way</p>
+        <div class="user">
+          <img src="./images/Reviews/thoko.jpg" alt="">
+          <div class="user-information">
+            <h3>Patience Malundo</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="swiper-pagination"></div>
+  </div>
+ </section>
+ <!-- reviews section ends -->
+
+ <!-- contact section starts -->
+ <section class="contact" id="contact">
+
+  <h1 class="heading"><span>contact</span> us</h1>
+  <div class="row">
+    <div class="image">
+      <img src="./images/gates.jpg" alt="">
+    </div>
+
+
+    <form action="https://formspree.io/f/mrgnrjdr" method="POST">
+      <span>your name</span>
+      <input type="name" required placeholder="enter your full name" maxlength="50" name="name" class="box">
+      <input type="email" required placeholder="enter your valid email" maxlength="50" name="email" class="box">
+      <input type="number" required placeholder="enter your valid number" max="999999999999" min="0" name="number" class="box" onkeypress="if(this.value.lenght == 10) return false">
+      <span>select course</span>
+      <select name="courses" class="box" required>
+        <option value="" disabled selected>select the course --</option>
+        <option value="web development">web development</option>
+          <option value="sciece and biology">sciece and biology</option>
+          <option value="engineering">engineering</option>
+          <option value="digital marketing">digital marketing</option>
+          <option value="graphic design">graphic design</option>
+          <option value="teaching">teaching</option>
+          <option value="social studies">social studie</option>
+          <option value="data analysis">data analysis</option>
+          <option value="artificial intelligence">artificial intelligence</option>
+      </select>
+      <span>select gender</span>
+      <div class="radio">
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">male</label>
+        <input type="radio" name="'gender" value="female" id="female">
+        <label for="female">female</label>
+      </div>
+      <input type="submit" value="send message" class="btn" name="send">
+    </form>
+  </div>
+ </section>
+ <!-- contact section ends -->
+
+ <!-- footer section starts -->
+
+ <footer class="footer">
+
+  <section>
+
+    <div class="share">
+      <a href="https://web.facebook.com" class="fab fa-facebook" target="_blank"></a>
+      <a href="https://twitter.com" class="fab fa-twitter" target="_blank"></a>
+      <a href="https://linkedin.com" class="fab fa-linkedin" target="_blank"></a>
+      <a href="https://instagram.com" class="fab fa-instagram" target="_blank"></a>
+      <a href="https://youtube.com" class="fab fa-youtube" target="_blank"></a>
+    </div>
+    <div class="credit">&copy; copyright @ 2023 by <span>Josh</span> | all rights reserved!</div>
+  </section>
+ </footer>
+ <!-- footer section ends -->
+
+ <!-- swiper js link -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+<script src="js/script.js"></script>
+</body>
+</html>

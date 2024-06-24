@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UACpmpatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Responsive Online Education Tutor Website Design</title>
+
+ <!-- swiper css link -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./emailStyle.css">
+
+</head>
+<body>
+
+ <!-- header section -->
+ <header class="header">
+
+ <section class="flex">
+
+  <a href="#home" class="logo">educa.</a>
+
+  
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <img src="./menu_open.png" alt="" id="menu-icon">
+      <img src="./close.png" alt="" id="close-icon">
+    </label>
+
+  <nav class="navbar">
+    <a href="../../index.html" style="--i:0;">home</a>
+    <a href="../math/index.html" style="--i:1;">about</a>
+    <a href="../../index.html" style="--i:2;">courses</a>
+    <a href="../../index.html" style="--i:2;">courses</a>
+    <a href="../../index.html" style="--i:3;">teachers</a>
+    <a href="../../index.html" style="--i:4;">reviews</a>
+    <a href="../../index.html" style="--i:5;">contact</a>
+  </nav>
+
+ </section>
+ </header>
+
+ <!-- main body section ends -->
+
+ <section class="math" id="math">
+
+   <h1 class="heading">major topics on <span>offer</span></h1>
+
+ <!-- <div class="swiper topic-slider"> -->
+
+  <div class="container2">
+
+  <div class="slide">
+    
+   <div class="item" style="background-image: url(./images/educational\ psychology.jpeg);">
+     <div class="content">
+      <div class="name">Educational Psychology</div>
+      <div class="des">Educational psychology is the study of how humans learn and retain knowledge, primarily in educational settings like classrooms. We offer assistance in assignment writting and any school work concerning Psychology
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/educational\ development.jpg);">
+     <div class="content">
+      <div class="name">Educational Development</div>
+      <div class="des">Development in education can be defined as a process of improving the quality of education for individuals and societies through activities that involve education systems and institutions. We also offer assistance in this course i.e assignments and school work.
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/ict\ teaching\ methids.jpg);">
+     <div class="content">
+      <div class="name">ICT Teaching methods</div>
+      <div class="des">ICT-based teaching involves the integration of digital tools, devices, and platforms to enhance the educational experience.
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+    <div class="item" style="background-image: url(./images/Research\ methods.jpg);">
+     <div class="content">
+      <div class="name">Research Methods</div>
+      <div class="des">These are specific procedures or techniques used to identify, select, process, and analyze information about a topic.
+      </div>
+      <button>See More</button>
+     </div>
+   </div>
+
+
+
+  </div>
+
+  <div class="button">
+    <button class="prev"><i class="fa-solid fa-arrow-left"></i></button>
+    <button class="next"><i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+
+ </div>
+
+ <script src="app.js"></script>
+
+
+
+
+
+
+
+<!--
+  <div class="swiper-wrapper">
+
+    <div class="swiper-slide slide">
+      <img src="./images/educational psychology.jpeg" alt="">
+      <h3>Educational Psychology</h3>
+      <p>Educational psychology is the study of how humans learn and retain knowledge, primarily in educational settings like classrooms. We offer assistance in assignment writting and any school work concerning Psychology</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/educational development.jpg" alt="">
+      <h3>Educational Development</h3>
+      <p>Development in education can be defined as a process of improving the quality of education for individuals and societies through activities that involve education systems and institutions. We also offer assistance in this course i.e assignments and school work. </p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/teching methods 2.jpg" alt="">
+      <h3>ICT Teaching methods</h3>
+      <p>ICT-based teaching involves the integration of digital tools, devices, and platforms to enhance the educational experience.</p>
+    </div>
+
+    <div class="swiper-slide slide">
+      <img src="./images/Research methods.jpg" alt="">
+      <h3>Reaearch methods</h3>
+      <p>These are specific procedures or techniques used to identify, select, process, and analyze information about a topic. </p>
+    </div>
+
+
+
+  </div>
+  -->
+
+ 
+ </section>
+
+
+ <section class="send">
+  <div class="container">
+   <form action="https://formspree.io/f/mrgnrjdr" method="POST">
+    <h2 class="heading">Get in<span> touch</span></h2>
+      <input type="text" name="Topic" id="name" placeholder="Educational topic">
+      <input type="text" name="Question" id="question" placeholder="type the question/query..">
+      <input type="text" name="Number" id="phone" placeholder="WhatsApp line">
+      <input type="email" name="Email" id="eamil" placeholder="email.@com">
+      <button type="submit" class="btn">submit</button>
+    </form>
+  </div>
+</section>
+
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+<script src="./js/script.js"></script>
+<script src="./js/email.js"></script>
+</body>
+</html>
